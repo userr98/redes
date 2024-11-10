@@ -1,0 +1,6 @@
+site_name: "Redes"
+
+nav:
+  - Inicio: index.md
+  - Intrdoduccion: introduccion.md
+

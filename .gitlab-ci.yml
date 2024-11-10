@@ -1,0 +1,13 @@
+image: python:3.9
+
+stages:
+- deploy
+
+pages:
+stage: deploy
+script:
+- pip install mkdocs
+- mkdocs build -d public
+artifacts:
+paths:
+- public
